@@ -8,9 +8,19 @@ public class CalculatorTest {
         // Given
         Calculator calculator = new Calculator();
         // When
-        int result = calculator.sum(2, 2);
+        int result = calculator.sum(10, 2);
         // Then
-        if (result != 4) {   // if 2 + 2 != 4
+        if (result != 12) {   // if 2 + 2 != 4
+            Assert.fail();
+        }
+        result = calculator.sum(0, 0);
+        // Then
+        if (result != 0) {   // if 2 + 2 != 4
+            Assert.fail();
+        }
+        result = calculator.sum(10 * 10, 2);
+        // Then
+        if (result != 10 * 10 + 2) {   // if 2 + 2 != 4
             Assert.fail();
         }
     }
@@ -19,18 +29,33 @@ public class CalculatorTest {
     public void testMinus() {
         Calculator calculator = new Calculator();
         Assert.assertEquals(0, calculator.minus(2, 2));
+        Assert.assertEquals(-2, calculator.minus(0, 2));
+        Assert.assertEquals(2, calculator.minus(4, 2));
+        Assert.assertEquals(10 * 1000, calculator.minus(10 * 1000 + 2, 2));
+        Assert.assertEquals(0, calculator.minus(0, 0));
+
+
     }
 
     @Test
     public void testDivide() {
         Calculator calculator = new Calculator();
         Assert.assertEquals(2, calculator.divide(6, 3));
+        Assert.assertEquals(0, calculator.divide(0, 3));
+        Assert.assertEquals(-2, calculator.divide(-6, 3));
+        Assert.assertEquals(-2, calculator.divide(6, -3));
+        Assert.assertEquals(1, calculator.divide(6, 6));
+
     }
 
     @Test
     public void testMultiply() {
         Calculator calculator = new Calculator();
         Assert.assertEquals(18, calculator.multiply(6, 3));
+        Assert.assertEquals(0, calculator.multiply(0, 0));
+        Assert.assertEquals(0, calculator.multiply(6, 0));
+        Assert.assertEquals(-1, calculator.multiply(1, -1));
+        Assert.assertEquals(10 * 10, calculator.multiply(10, 10));
     }
 
     @Test(expected = ArithmeticException.class)

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae4adf8-0a84-4c41-9976-700d20f7cd92" name="Default Changelist" comment="" />
+    <list default="true" id="dae4adf8-0a84-4c41-9976-700d20f7cd92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +21,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\irlir\IdeaProjects\Calculator\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1UvBsKtlAv0J7gWoCyxrkMHvJmG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,12 +41,13 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.testMultiply">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,8 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.testMultiply" />
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.testMultiply" />
         <item itemvalue="JUnit.CalculatorTest.testSum" />
         <item itemvalue="JUnit.CalculatorTest.testMinus" />
       </list>
@@ -105,9 +118,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576227393740</updated>
-      <workItem from="1576227398682" duration="1156000" />
+      <workItem from="1576227398682" duration="1952000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1576228784370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576228784370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1576228032795">
@@ -118,26 +146,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576228152701" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1576228782893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576228782893" />
     <state x="794" y="435" width="356" height="169" key="Github.CreateGistDialog" timestamp="1576228625742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="435" width="356" height="169" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576228625742" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1576228577744">
+    <state x="837" y="413" width="260" height="214" key="Github.ShareDialog" timestamp="1576228821628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576228577744" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1576228577743">
+    <state x="837" y="413" width="260" height="214" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576228821628" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1576229368814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576228577743" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1576228577743">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576229368814" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1576229368814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576228577743" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1576228577743">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576229368814" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1576229368813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576228577743" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576229368813" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1576229368814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576229368814" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1576228100237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -146,6 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576227906137" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576228803871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576228803871" />
     <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576227905114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
