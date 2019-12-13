@@ -10,17 +10,19 @@ public class CalculatorTest {
         // When
         int result = calculator.sum(10, 2);
         // Then
-        if (result != 12) {   // if 2 + 2 != 4
+        if (result != 12) {
             Assert.fail();
         }
+        // When
         result = calculator.sum(0, 0);
         // Then
-        if (result != 0) {   // if 2 + 2 != 4
+        if (result != 0) {
             Assert.fail();
         }
+        // When
         result = calculator.sum(10 * 10, 2);
         // Then
-        if (result != 10 * 10 + 2) {   // if 2 + 2 != 4
+        if (result != 10 * 10 + 2) {
             Assert.fail();
         }
     }
